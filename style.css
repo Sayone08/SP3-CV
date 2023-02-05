@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 90vh;
+    background-color: rgb(243, 232, 232);
+    border: 2px solid #5d7288;
+}
+
+.left{
+    /* background: linear-gradient(#bdc3c7,#5d7288); */
+    width: 40%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.partition{
+    width: 1%;
+    background: linear-gradient(#bdc3c7,#5d7288);
+}
+.partition-hr{
+    width: 80%;
+    background: linear-gradient(#bdc3c7,#5d7288);
+    /* border: 2px solid black; */
+}
+img{
+    width: 370px;
+    height: 370px;
+    /* border-radius: 50%; */
+    display: block;
+    margin: auto;
+    border: 1px solid #5d7288;
+    box-shadow: 20px 20px 40px 10px #5d7288;
+}
+.right{
+    /* background-color: aquamarine; */
+    width: 60%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+}
+h2{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #5d7288;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px #5d7288;
+    margin-bottom: 40px;
+}
+h4{
+    text-align: center;
+    margin: 0;
+}
+.h{
+    opacity: 0;
+}
+p{
+    font-size: 1.2rem;
+}
+li{
+    font-size: 1.3rem;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+ 
+    border: 2px solid #bdc3c7;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #5d7288;
+}
+span{
+    font-size: 1.2rem;
+}
+#html-bar{
+    animation: html 2s forwards;
+}
+@keyframes html{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css 2s forwards;
+}
+@keyframes css{
+    100%{
+        width: 80%;
+    }
+}
+#c-bar{
+    animation: c 2s forwards;
+}
+@keyframes c{
+    100%{
+        width: 85%;
+    }
+}
+#cplus-bar{
+    animation: cc 2s forwards;
+}
+@keyframes cc{
+    100%{
+        width: 70%;
+    }
+}
+#word-bar{
+    animation: word 2s forwards;
+}
+@keyframes word{
+    100%{
+        width: 95%;
+    }
+}
+
+table{
+    border: 1px solid black;
+    font-size: 1.5rem;
+    box-shadow: 10px 10px 5px #5d7288;
+
+}
+td,th{
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px #5d7288;
+}
+.h2{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #5d7288;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px #5d7288;
+}
+button{
+    border: 1px solid #5d7288;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+a{
+    color: blue;
+    font-size: 1rem;
+}
+
